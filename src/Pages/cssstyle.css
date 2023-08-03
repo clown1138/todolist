@@ -1,0 +1,154 @@
+.title {
+    width: 106px;
+    height: 23px;
+    top: 138px;
+    left: 127px;
+    color: #FFFFFF;
+    font-family: Noto Sans;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.3em;
+    text-align: center;
+    background-color: #A370FF;
+    margin:  20px auto;
+}
+.fromstyle{
+    padding:10px
+}
+.inputstyle{
+    width: 288px;
+    height: 40px;
+    top: 186px;
+    left: 36px;
+    border-Radius: 20px;
+    padding-left: 12px;
+    margin: 10px;
+    background-color: #372B4B; 
+    border: 1px solid #A370FF;
+    color: #fff;
+}
+.buttonS{
+    width: 92px;
+    height: 35px;
+    border-radius: 20px;
+    border: 0.6523972749710083px;
+    background-color: #A370FF;
+    color: #FFFFFF;
+}
+.buttonB{
+    width: 161px;
+    height: 35px;
+    top: 324px;
+    left: 36px;
+    border-radius: 20px ;    
+    background-color: #372B4B;
+    border: 1px solid #A370FF;
+    color: #A370FF;
+}
+.Pcheckbox{
+    font-size: 12px;
+    color: #FFFFFF;
+}
+.acheckbox{
+    font-size: 12px;
+    color:  #A370FF;
+}
+.divcheckbox{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px 35px;
+
+}
+.inputcheckbox{
+    transform: scale(1.5);
+}
+.a{
+    color: #A370FF;
+    margin: 5px;
+}
+::placeholder {
+    color: #A370FF;
+}
+.todoinput{
+    width: 460px;
+    height: 40px;
+    top: 80px;
+    left: 40px;
+    border-radius: 30px;
+    border: 1px;
+    padding-left: 24px;
+    background-color: #372B4B;
+    border: 1px solid #A370FF;
+    color: #fff
+}
+.toDoList{
+    width: 430px;
+    height: 214px;
+    top: 146px;
+    left: 55px;
+    margin: 20px auto;
+    max-height: 300px;
+    overflow: auto
+}
+.toDoListPro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:-27px;
+    border-bottom: 1px solid #A370FF;
+    width: 414px;
+}
+.hrToDo{
+    position: relative;
+    top: 11px;
+    border:1px solid #FFFFFF;
+}
+.hrToDohide{
+    border:1px solid #ffffff00;
+}
+.howManyToDo{
+    color: rgb(163 112 255);
+    float: right;
+    width: 430px;
+    margin: auto;
+}
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-10px); }
+    50% { transform: translateX(10px); }
+    75% { transform: translateX(-10px); }
+    100% { transform: translateX(0); }
+  }
+  .toDoList::-webkit-scrollbar {
+    width: 8px; /* 滾輪寬度 */
+  }
+  
+  .toDoList::-webkit-scrollbar-thumb {
+    background-color: #A370FF; /* 滾輪顏色 */
+    border-radius: 4px ; /* 滾輪邊框 */
+  }
+  
+  .toDoList::-webkit-scrollbar-track {
+    background-color: #372B4B; /* 滾輪背景色 */
+    border-radius: 4px ; /* 滾輪背景邊框 */
+    border: #A370FF 1px solid;
+  }
+  
+  /* 設置動畫屬性 */
+  .shakeAnimation {
+    animation-name: shake; /* 使用定義的動畫關鍵幀 */
+    animation-duration: 1s; /* 動畫持續時間，這裡是 1 秒 */
+    animation-timing-function: ease-in-out; /* 動畫的時間函數，使動畫左右搖晃 */
+    animation-iteration-count: infinite; /* 動畫重複播放次數，infinite 表示無限次 */
+  }
+  
+  
+  
+  
+  
+  
